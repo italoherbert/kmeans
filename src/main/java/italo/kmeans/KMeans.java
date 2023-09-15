@@ -22,7 +22,7 @@ public class KMeans {
 
     public void make() {
         if (dados == null || centroides == null || nDados != dados.length || k != centroides.length) {
-            throw new RuntimeException("Algor�tmo inconsistente !!!");
+            throw new RuntimeException("Algoritmo inconsistente !!!");
         }
         boolean convergencia = false;
         while (!convergencia) {
@@ -95,7 +95,7 @@ public class KMeans {
 
     public int[] sortCentroides() {
         if (centroides.length != k) {
-            throw new RuntimeException("Algor�tmo inconsistente !!!");
+            throw new RuntimeException("Algoritmo inconsistente !!!");
         }
         boolean isOrder;
         int[] classesMap = new int[k];
